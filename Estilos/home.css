@@ -1,6 +1,9 @@
-.btn-secundary{
+.btn-secundary{  /* color boton shop mens */
     background: #454545;
     color: #f0fff0;
-
-
+}
+.menuimg{
+border-color: 5px 5px #454545;
+width: auto;
+height: 300px;
 }
