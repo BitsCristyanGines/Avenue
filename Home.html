@@ -37,22 +37,30 @@
               <!-- Fin barra de navegacion 1 -->
               <!-- inicio foto de hombre  -->
               <div class="row">
-                  <div class="col-xs-6 col-sm-6 col-md-6">
-                      <img src="imagenes/hombre.PNG" alt="">
+                  <div class="col-xs-4 col-sm-4 col-md-4">
+                      <img src="imagenes/hombre.PNG" alt="" >
                   </div>
                   <!-- Fin foto hoimbre  -->
                   <!-- inicio menu de despliegue -->
-                  <div class="col-xs-6 col-sm-6 col-md-6">
+                  <div class="col-xs-8 col-sm-8 col-md-8">
                     <ul class="nav nav-tabs" >
-                        <!-- <li class="active"><a data-toggle="tab" href="#TheBrand">The Brand</a></li> -->
+                        <!-- inicio primer menu despliegue  -->
                         <li><a data-toggle="tab" href="#Mens">Mens</a></li>
                         <li><a data-toggle="tab" href="#Womens">Womens</a></li>
                         <li><a data-toggle="tab" href="#TheBrand">The Brand</a></li>
                         <li><a data-toggle="tab" href="#LocalStore">Local Stores</a></li>
                         <li><a data-toggle="tab" href="#LookBook">Look Book</a></li>
+                          <!-- Barra busqueda menu despliegue  -->
+                        <form class="navbar-form navbar-left" action="/action_page.php">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search" name="search">
+                          </div>
+                          <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </form>
                       </ul>
-
-                      <div class="tab-content">  <!-- div inicial  menu despliegue -->
+                 <!--fin barra busqueda menu despliegue   -->
+                      <div class="tab-content">
+                 <!-- div inicial  menu despliegue -->
                         <div id="Mens" class=" tab-pane fade ">
                             <div class="col-sm-6 col-md-6">
                                 <h4>Casual</h4>
@@ -158,33 +166,27 @@
                                 <li><a href="#">espacio2</a><br></li>
                                 <li><a href="#">espacio3</a><br></li>
                                 <li><a href="#">espacio4</a><br></li>
+
                             </ul>
                             </div>
                           </div>
-                          <div class="col-xs-6 col-sm-6 col-md-6">
-                            <nav>
-                              <form class="navbar-form navbar-right" action="/action_page.php">
-                                <div class="form-group">
-                                  <input type="text"  class="form-control"placeholder="Search" name="search">
-                                </div>
-                                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-                              </form>
-                            </div>
-                          </nav>
-                          </div>
-
-
                        <!-- div final menu despliegue  -->
-
-
                   </div>
+                </div class="row">
+               <div class="bottom-left">
+              <img src="" alt="">
+               </div>
+                <div>
+                  <img src="imagenes/imagen 2.PNG" alt="">
                 </div>
-
+                <div>
+                  <button type="button"  class=" btn btn-secundary active center-block" >shop men's colecction </button>
+                </div>
 <!--fin menu de despliegue -->
-
-
-
 </div>
+</div>
+<div class="container-fluid"> <!-- segundo container -->
+
 </div>
 </body>
 </html>
