@@ -5,10 +5,13 @@
 .menuimg{
 border-color: 5px 5px #454545;
 width: auto;
-height: 300px;
+height: auto;
 }
 .colorfon{
 
     background: #e8e8e8;
 }
-
+.tamañoimg{
+    width: 400px;
+    height: 300px;
+}
