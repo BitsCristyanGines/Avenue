@@ -15,3 +15,19 @@ height: auto;
     width: 400px;
     height: 300px;
 }
+.cuadro{
+    width: 400px;
+    height: 300px;
+}
+.tamañoimgcont{
+    width: 190px;
+    height:250px;
+
+}
+.colorboton{
+    background: darkgrey ;
+    color: floralwhite;
+}
+.espacio{
+    width: 30%; margin: 10px 5px;
+}
