@@ -31,3 +31,20 @@ height: auto;
 .espacio{
     width: 30%; margin: 10px 5px;
 }
+
+.Redso{
+margin: 50px;
+background: #9ab3f5;
+}
+.Redsoci{
+    color: honeydew;
+    margin: 10px 10px 15px 15px;
+}
+.iconem{
+    background: #7e7474 ;
+    color: #fbf7f0;
+    margin: 15px;
+}
+.espaciofoo{
+    margin: 15px;
+}
