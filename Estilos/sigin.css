@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .divfon {
+
+    background: transparent;
+      width: 1300px;
+      height: 600px;
+  }
+  .Redsoci{
+  color: honeydew;
+  margin: 10px 10px 15px 15px;
+  }
+
+  .Redso{
+    margin: 50px;
+    background: #9ab3f5;
+    }
+    .tamañoimgcont{
+      width: 190px;
+      height:250px;
+    }
+      .colorfon{
+        background: #e8e8e8;
+    }
+    .iconem{
+      background: #7e7474 ;
+      color: #fbf7f0;
+      margin: 15px;
+  }
+
+  .Anunci{
+    width: 100px;
+    height: 100px;
+  left: px;
+  }
